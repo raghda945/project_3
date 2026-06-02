@@ -18,3 +18,5 @@ recommended = df[df['Genre'].str.lower() == genre.lower()]
 # Show recommendations
 print("\nRecommended Movies:")
 print(recommended.head(5))
+genre = input("Enter genre: ")
+rating = float(input("Minimum rating: "))
